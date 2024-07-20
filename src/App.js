@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './commponents/Navbar';
 import TextForm from './commponents/TextForm';
-// import About from './commponents/About';
+import About from './commponents/About';
 import React, { useState } from 'react';
 import Alert from './commponents/Alert';
 
@@ -69,14 +69,14 @@ function App() {
   return (
     <>
   <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+  {/* <Navbar title="TextAnalyzer" aboutTexts = "About Us/> */}
   {/* <Navbar /> */}
-  {/* <Navbar title="TextAnalyzer" /> */}
   {/* <Alert alert={alert}/>
    */}
   <div className="container my-3">
     <TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode}/> 
     {/* <TextForm /> */}
-    {/* <About /> */}
+    <About />
    </div>
     </>
   );

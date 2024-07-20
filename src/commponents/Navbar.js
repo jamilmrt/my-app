@@ -73,8 +73,8 @@ export default function Navbar(props) {
 // }
 // //this is the default navbar style  for the props
 
-// Navbar.defaultProps = {
-//     title: 'My Website',
-//     aboutTexts: 'About Us',
-// }
+Navbar.defaultProps = {
+    title: 'My Website',
+    aboutTexts: 'About Us',
+}
 // This is a deafult pramerter for the page which will use this component
